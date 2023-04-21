@@ -15,3 +15,14 @@
 # HINTS
 # Learn to read the documentation!
 # https://ruby-doc.org/core-2.7.0/Array.html
+
+mylist = ["milk","eggs","bacon"]
+yourlist = ["beer","eggs","apples"]
+lists = mylist + yourlist
+
+puts "LIST is #{lists}"
+
+sortedlist = lists.sort
+
+sortedlistuniq=sortedlist.uniq
+puts sortedlistuniq.inspect
